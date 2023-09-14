@@ -31,7 +31,7 @@ int main(){
         }
         else if(op==5){
             string_reverse(str);
-            printf("String invertida: \n%s\n\n", str);
+            printf("String invertida: %s\n\n", str);
         }
     }
     return 0;
