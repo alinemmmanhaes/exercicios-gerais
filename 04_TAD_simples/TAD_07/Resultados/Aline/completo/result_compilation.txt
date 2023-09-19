@@ -1,0 +1,4 @@
+Resultados/Aline/completo/data.c: In function ‘NumeroDiasMes’:
+Resultados/Aline/completo/data.c:106:1: warning: control reaches end of non-void function [-Wreturn-type]
+  106 | }
+      | ^
