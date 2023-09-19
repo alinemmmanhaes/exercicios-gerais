@@ -11,13 +11,13 @@ tConta CriaConta(int numero, tUsuario user){
 }
 
 void ImprimeConta(tConta conta){
-	printf("Conta: %d\n", id);
-	printf("Saldo: R$ %.2f\n", saldo);
+	printf("Conta: %d\n", conta.numero);
+	printf("Saldo: R$ %.2f\n", conta.saldo);
 	ImprimeUsuario(conta.user);
 }
 
 int VerificaConta(tConta conta, int numero){
-	if(conta.numero = numero){
+	if(conta.numero == numero){
 		return 1;
 	}
 	return 0;
