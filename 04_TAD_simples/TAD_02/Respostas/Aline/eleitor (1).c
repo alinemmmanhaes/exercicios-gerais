@@ -1,28 +1,33 @@
 #include "eleitor.h"
+#include <stdio.h>
 
-tEleitor criaEleitor(int id, int votoP, int votoM){
+tEleitor CriaEleitor(int id, int votoP, int votoG){
     tEleitor eleitor;
     eleitor.id = id;
     eleitor.votoP = votoP;
-    eleitor.votoM = votoM;
+    eleitor.votoG = votoG;
     return eleitor;
 }
 
-int jaVotou(tEleitor eleitor, int idAnterior){
-    if(eleitor.id == idAnterior){
-        return 1;
-    }
-    return 0;
+tEleitor LeEleitor(){
+    int id, p, g;
+    tEleitor eleitor;
+    scanf("%d %d %d", &id, &p, &g);
+    eleitor = CriaEleitor(id, p, g);
+    return eleitor;
 }
 
-int obtemIdEleitor(tEleitor eleitor){
-    return eleitor.id;
-}
-
-int obtemVotoPresidente(tEleitor eleitor){
+int ObtemVotoPresidente(tEleitor eleitor){
     return eleitor.votoP;
 }
 
-int obtemVotoPMinistro(tEleitor eleitor){
-    return eleitor.votoM;
+int ObtemVotoPMinistro(tEleitor eleitor){
+    return eleitor.votoG;
+}
+
+int EhMesmoEleitor(tEleitor eleitor1, tEleitor eleitor2){
+    if(eleitor1.id == eleitor2.id){
+        return 1;
+    }
+    return 0;
 }
