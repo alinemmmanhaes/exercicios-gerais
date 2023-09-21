@@ -135,8 +135,10 @@ int ComparaData(tData data1, tData data2){
 
 int CalculaDiasAteMes(tData data){
     int dias=0, i;
+    tData conta;
     for(i=1; i<data.mes; i++){
-        dias += NumeroDiasMes(data);
+        conta = CriaData(20, i, data.ano);
+        dias += NumeroDiasMes(conta);
     }
     return dias;
 }
