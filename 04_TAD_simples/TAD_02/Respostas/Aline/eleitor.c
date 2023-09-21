@@ -21,7 +21,7 @@ int ObtemVotoPresidente(tEleitor eleitor){
     return eleitor.votoP;
 }
 
-int ObtemVotoPMinistro(tEleitor eleitor){
+int ObtemVotoGovernador(tEleitor eleitor){
     return eleitor.votoG;
 }
 

@@ -21,10 +21,10 @@ int main(){
     ImprimeDataExtenso(data2);
     
     resp = ComparaData( data1, data2);
-    if(resp == 1){
+    if(resp == -1){
     	printf("A segunda data eh mais antiga\n");
     }
-    else if(resp == -1){
+    else if(resp == 1){
     	printf("A primeira data eh mais antiga\n");
     }
     else if(resp == 0){

@@ -39,5 +39,31 @@ int VerificaIdCandidato(tCandidato candidato, int id){
 }
 
 int EhMesmoCandidato(tCandidato candidato1, tCandidato candidato2){
-    
+    if(candidato1.id == candidato2.id){
+    	return 1;
+    }
+    return 0;
+}
+
+char ObtemCargo(tCandidato candidato){
+    return candidato.cargo;
+}
+
+tCandidato IncrementaVotoCandidato(tCandidato candidato){
+    candidato.votos++;
+    return candidato;
+}
+
+int ObtemVotos(tCandidato candidato){
+    return candidato.votos;
+}
+
+float CalculaPercentualVotos(tCandidato candidato, int totalVotos){
+    float percentual;
+    percentual = (candidato.votos/totalVotos);
+    return percentual;
+}
+
+void ImprimeCandidato (tCandidato candidato, float percentualVotos){
+    printf("%s (%s), %d voto(s), %.2f%\n", candidato.nome, candidato.partido, candidato.votos, percentualVotos);
 }
