@@ -6,15 +6,9 @@ tCandidato CriaCandidato(char *nome, char *partido, char cargo, int id){
     int i;
     for(i=0; i<50; i++){
         cand.nome[i] = nome[i];
-        if(nome[i]!='\0'){
-            break;
-        }
     }
     for(i=0; i<50; i++){
         cand.partido[i] = partido[i];
-        if(partido[i]!='\0'){
-            break;
-        }
     }
     cand.cargo = cargo;
     cand.id = id;
@@ -26,7 +20,7 @@ tCandidato LeCandidato(){
     char nome[50], part[50], cargo;
     int id;
     tCandidato cand;
-    scanf("%[^,], %[^,], %c, %d", nome, part, &cargo, &id);
+    scanf("%*c%[^,], %[^,], %c, %d", nome, part, &cargo, &id);
     cand = CriaCandidato(nome, part, cargo, id);
     return cand;
 }
@@ -60,7 +54,8 @@ int ObtemVotos(tCandidato candidato){
 
 float CalculaPercentualVotos(tCandidato candidato, int totalVotos){
     float percentual;
-    percentual = (candidato.votos/totalVotos);
+    percentual = (float)(candidato.votos)/(totalVotos);
+    percentual = percentual*100;
     return percentual;
 }
 
