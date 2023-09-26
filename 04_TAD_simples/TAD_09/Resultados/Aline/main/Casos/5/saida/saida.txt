@@ -1,6 +1,6 @@
 A empresa 1 ja possui um funcionario com o id 1
-A empresa 1 ja possui um funcionario com o id 1
-A empresa 1 ja possui um funcionario com o id 2
+A empresa 3 ja possui um funcionario com o id 1
+A empresa 3 ja possui um funcionario com o id 2
 A empresa 5 ja possui um funcionario com o id 2
 A empresa 5 ja possui um funcionario com o id 2
 A empresa 5 ja possui um funcionario com o id 0

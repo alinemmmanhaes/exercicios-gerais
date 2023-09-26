@@ -161,7 +161,7 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Pasta completo / Caso 3:
  - Arquivo de output gerado: Resultados/Aline/completo/Casos/3/result_valgrind.txt.
  - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
- - Resultado para o saida.txt: Incorreto!
+ - Resultado para o saida.txt: Ok!
  - Pasta completo / Caso 4:
  - Arquivo de output gerado: Resultados/Aline/completo/Casos/4/result_valgrind.txt.
  - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
@@ -169,7 +169,7 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Pasta completo / Caso 5:
  - Arquivo de output gerado: Resultados/Aline/completo/Casos/5/result_valgrind.txt.
  - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
- - Resultado para o saida.txt: Incorreto!
+ - Resultado para o saida.txt: Ok!
 
 #######################################
 RESULTADOS FINAIS
@@ -186,11 +186,11 @@ Nome 0: Aline
  - Valgrinds Corretos funcionario: 5 de 5 / Nota 10.00
  - Resultados Corretos main: 0 de 5 / Nota 0.00
  - Valgrinds Corretos main: 0 de 5 / Nota 0.00
- - Resultados Corretos completo: 3 de 5 / Nota 6.00
+ - Resultados Corretos completo: 5 de 5 / Nota 10.00
  - Valgrinds Corretos completo: 5 de 5 / Nota 10.00
- - Soma das notas do Aline: 76.000
+ - Soma das notas do Aline: 80.000
  - Campos Considerados: 11
- - Média do Aline: 6.90
+ - Média do Aline: 7.27
 
 ----------------------------------------------------------------------------
 

@@ -6,7 +6,3 @@ Resultados/Aline/completo/empresa.c: In function ‘contrataFuncionarioEmpresa�
 Resultados/Aline/completo/empresa.c:25:12: warning: unused variable ‘flag’ [-Wunused-variable]
    25 |     int i, flag=0;
       |            ^~~~
-Resultados/Aline/completo/empresa.c: In function ‘imprimeEmpresa’:
-Resultados/Aline/completo/empresa.c:37:9: warning: unused variable ‘i’ [-Wunused-variable]
-   37 |     int i;
-      |         ^

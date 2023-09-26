@@ -16,7 +16,7 @@ int main(){
             func = leFuncionario();
             for(k=0; k<j; k++){
                 if(getIdFuncionario(emp[i].funcionarios[k]) == getIdFuncionario(func)){
-                    printf("A empresa 1 ja possui um funcionario com o id %d\n", func.id);
+                    printf("A empresa %d ja possui um funcionario com o id %d\n", emp[i].id, func.id);
                     flag = 1;
                     break;
                 }

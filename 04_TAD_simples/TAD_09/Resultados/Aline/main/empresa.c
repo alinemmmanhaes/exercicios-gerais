@@ -34,6 +34,5 @@ tEmpresa contrataFuncionarioEmpresa(tEmpresa empresa, tFuncionario funcionario){
 }
 
 void imprimeEmpresa(tEmpresa empresa){
-    int i;
     printf("Empresa %d:\n", empresa.id);
 }
