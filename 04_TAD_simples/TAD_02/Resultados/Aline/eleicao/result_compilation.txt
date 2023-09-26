@@ -1,0 +1,8 @@
+Resultados/Aline/eleicao/candidato.c: In function ‘ImprimeCandidato’:
+Resultados/Aline/eleicao/candidato.c:63:39: warning: unknown conversion type character ‘\x0a’ in format [-Wformat=]
+   63 |     printf("%s (%s), %d voto(s), %.2f%\n", candidato.nome, candidato.partido, candidato.votos, percentualVotos);
+      |                                       ^~
+Resultados/Aline/eleicao/eleicao.c: In function ‘RealizaEleicao’:
+Resultados/Aline/eleicao/eleicao.c:35:18: warning: unused variable ‘eleitor’ [-Wunused-variable]
+   35 |         tEleitor eleitor;
+      |                  ^~~~~~~
