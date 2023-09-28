@@ -22,7 +22,7 @@ tEmpresa leEmpresa(){
 }
 
 tEmpresa contrataFuncionarioEmpresa(tEmpresa empresa, tFuncionario funcionario){
-    int i, flag=0;
+    int i;
     for(i=0; i<empresa.qtdFuncionarios; i++){
         if(getIdFuncionario(empresa.funcionarios[i]) == -1){
             break;
@@ -34,5 +34,13 @@ tEmpresa contrataFuncionarioEmpresa(tEmpresa empresa, tFuncionario funcionario){
 }
 
 void imprimeEmpresa(tEmpresa empresa){
+    int i;
     printf("Empresa %d:\n", empresa.id);
+    for(i=0; i<empresa.qtdFuncionarios; i++){
+        if(getIdFuncionario(empresa.funcionarios[i]) == -1){
+            break;
+        }
+        imprimeFuncionario(empresa.funcionarios[i]);
+    }
+    printf("\n");
 }

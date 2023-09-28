@@ -29,13 +29,6 @@ int main(){
 
     for(i=0; i<n; i++){
         imprimeEmpresa(emp[i]);
-        for(j=0; j<emp[i].qtdFuncionarios; j++){
-            if(getIdFuncionario(emp[i].funcionarios[j]) == -1){
-            	break;
-            }
-            imprimeFuncionario(emp[i].funcionarios[j]);
-        }
-        printf("\n");
     }
 
     return 0;
