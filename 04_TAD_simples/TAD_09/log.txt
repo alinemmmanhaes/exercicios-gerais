@@ -93,23 +93,23 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Pasta empresa / Caso 1:
  - Arquivo de output gerado: Resultados/Aline/empresa/Casos/1/result_valgrind.txt.
  - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
- - Resultado para o saida.txt: Incorreto!
+ - Resultado para o saida.txt: Ok!
  - Pasta empresa / Caso 2:
  - Arquivo de output gerado: Resultados/Aline/empresa/Casos/2/result_valgrind.txt.
  - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
- - Resultado para o saida.txt: Incorreto!
+ - Resultado para o saida.txt: Ok!
  - Pasta empresa / Caso 3:
  - Arquivo de output gerado: Resultados/Aline/empresa/Casos/3/result_valgrind.txt.
- - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
- - Resultado para o saida.txt: Incorreto!
+ - Valgrind: Incorreto! allocs: 2, frees: 2, errors: 14.
+ - Resultado para o saida.txt: Ok!
  - Pasta empresa / Caso 4:
  - Arquivo de output gerado: Resultados/Aline/empresa/Casos/4/result_valgrind.txt.
  - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
- - Resultado para o saida.txt: Incorreto!
+ - Resultado para o saida.txt: Ok!
  - Pasta empresa / Caso 5:
  - Arquivo de output gerado: Resultados/Aline/empresa/Casos/5/result_valgrind.txt.
- - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
- - Resultado para o saida.txt: Incorreto!
+ - Valgrind: Incorreto! allocs: 2, frees: 2, errors: 1.
+ - Resultado para o saida.txt: Ok!
  - Pasta funcionario / Caso 1:
  - Arquivo de output gerado: Resultados/Aline/funcionario/Casos/1/result_valgrind.txt.
  - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
@@ -132,24 +132,24 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Resultado para o saida.txt: Ok!
  - Pasta main / Caso 1:
  - Arquivo de output gerado: Resultados/Aline/main/Casos/1/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 2, frees: 2, errors: 310.
- - Resultado para o saida.txt: Incorreto!
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Ok!
  - Pasta main / Caso 2:
  - Arquivo de output gerado: Resultados/Aline/main/Casos/2/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 2, frees: 2, errors: 272.
- - Resultado para o saida.txt: Incorreto!
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Ok!
  - Pasta main / Caso 3:
  - Arquivo de output gerado: Resultados/Aline/main/Casos/3/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 2, frees: 2, errors: 527.
- - Resultado para o saida.txt: Incorreto!
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Ok!
  - Pasta main / Caso 4:
  - Arquivo de output gerado: Resultados/Aline/main/Casos/4/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 2, frees: 2, errors: 35602.
- - Resultado para o saida.txt: Incorreto!
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Ok!
  - Pasta main / Caso 5:
  - Arquivo de output gerado: Resultados/Aline/main/Casos/5/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 2, frees: 2, errors: 103.
- - Resultado para o saida.txt: Incorreto!
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Ok!
  - Pasta completo / Caso 1:
  - Arquivo de output gerado: Resultados/Aline/completo/Casos/1/result_valgrind.txt.
  - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
@@ -160,7 +160,7 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Resultado para o saida.txt: Ok!
  - Pasta completo / Caso 3:
  - Arquivo de output gerado: Resultados/Aline/completo/Casos/3/result_valgrind.txt.
- - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Valgrind: Incorreto! allocs: 2, frees: 2, errors: 14.
  - Resultado para o saida.txt: Ok!
  - Pasta completo / Caso 4:
  - Arquivo de output gerado: Resultados/Aline/completo/Casos/4/result_valgrind.txt.
@@ -168,7 +168,7 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Resultado para o saida.txt: Ok!
  - Pasta completo / Caso 5:
  - Arquivo de output gerado: Resultados/Aline/completo/Casos/5/result_valgrind.txt.
- - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Valgrind: Incorreto! allocs: 2, frees: 2, errors: 1.
  - Resultado para o saida.txt: Ok!
 
 #######################################
@@ -180,17 +180,17 @@ Nome 0: Aline
  - Arquivos Corretos: 5 de 5 / Nota 10.00
  - Compilações Corretas: 12 de 12 / Nota 10.00
  - Linkagens Corretas: 4 de 4 / Nota 10.00
- - Resultados Corretos empresa: 0 de 5 / Nota 0.00
- - Valgrinds Corretos empresa: 5 de 5 / Nota 10.00
+ - Resultados Corretos empresa: 5 de 5 / Nota 10.00
+ - Valgrinds Corretos empresa: 3 de 5 / Nota 6.00
  - Resultados Corretos funcionario: 5 de 5 / Nota 10.00
  - Valgrinds Corretos funcionario: 5 de 5 / Nota 10.00
- - Resultados Corretos main: 0 de 5 / Nota 0.00
- - Valgrinds Corretos main: 0 de 5 / Nota 0.00
+ - Resultados Corretos main: 5 de 5 / Nota 10.00
+ - Valgrinds Corretos main: 5 de 5 / Nota 10.00
  - Resultados Corretos completo: 5 de 5 / Nota 10.00
- - Valgrinds Corretos completo: 5 de 5 / Nota 10.00
- - Soma das notas do Aline: 80.000
+ - Valgrinds Corretos completo: 3 de 5 / Nota 6.00
+ - Soma das notas do Aline: 102.000
  - Campos Considerados: 11
- - Média do Aline: 7.27
+ - Média do Aline: 9.27
 
 ----------------------------------------------------------------------------
 

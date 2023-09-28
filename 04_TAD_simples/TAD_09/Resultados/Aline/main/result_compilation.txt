@@ -1,8 +1,13 @@
-Resultados/Aline/main/empresa.c: In function ‘leEmpresa’:
-Resultados/Aline/main/empresa.c:17:13: warning: unused variable ‘qtd’ [-Wunused-variable]
-   17 |     int id, qtd;
-      |             ^~~
-Resultados/Aline/main/empresa.c: In function ‘contrataFuncionarioEmpresa’:
-Resultados/Aline/main/empresa.c:25:12: warning: unused variable ‘flag’ [-Wunused-variable]
-   25 |     int i, flag=0;
-      |            ^~~~
+Resultados/Aline/main/main.c: In function ‘main’:
+Resultados/Aline/main/main.c:7:18: warning: unused variable ‘func’ [-Wunused-variable]
+    7 |     tFuncionario func;
+      |                  ^~~~
+Resultados/Aline/main/main.c:6:21: warning: unused variable ‘flag’ [-Wunused-variable]
+    6 |     int n, i, j, k, flag;
+      |                     ^~~~
+Resultados/Aline/main/main.c:6:18: warning: unused variable ‘k’ [-Wunused-variable]
+    6 |     int n, i, j, k, flag;
+      |                  ^
+Resultados/Aline/main/main.c:6:15: warning: unused variable ‘j’ [-Wunused-variable]
+    6 |     int n, i, j, k, flag;
+      |               ^

@@ -4,20 +4,31 @@
 
 tEmpresa criaEmpresa(int id){
     tEmpresa emp;
-    int i;
     emp.id = id;
-    scanf("%d", &emp.qtdFuncionarios);
-    for(i=0; i<emp.qtdFuncionarios; i++){
-        emp.funcionarios[i].id = -1;
-    }
+    emp.qtdFuncionarios = 0;
     return emp;
 }
 
 tEmpresa leEmpresa(){
-    int id, qtd;
+    int id=-1, qtd=-1, i=-1, j=-1, flag=-1;
     tEmpresa emp;
-    scanf("%d", &id);
+    tFuncionario func;
+    scanf("%d %d", &id, &qtd);
     emp = criaEmpresa(id);
+    for(i=0; i<qtd; i++){
+    	func = leFuncionario();
+    	flag = 0;
+    	for(j=0; j<i; j++){
+    	    if(getIdFuncionario(emp.funcionarios[j]) == getIdFuncionario(func)){
+    	    	printf("A empresa %d ja possui um funcionario com o id %d\n", emp.id, func.id);
+    	    	flag = 1;
+    	    	break;
+    	    }
+    	}
+    	if(flag == 0){
+    	    emp = contrataFuncionarioEmpresa(emp, func);
+    	}
+    }
     return emp;
 }
 
@@ -29,6 +40,7 @@ tEmpresa contrataFuncionarioEmpresa(tEmpresa empresa, tFuncionario funcionario){
         }
     }
     empresa.funcionarios[i] = funcionario;
+    empresa.qtdFuncionarios++;
     
     return empresa;
 }
@@ -37,9 +49,6 @@ void imprimeEmpresa(tEmpresa empresa){
     int i;
     printf("Empresa %d:\n", empresa.id);
     for(i=0; i<empresa.qtdFuncionarios; i++){
-        if(getIdFuncionario(empresa.funcionarios[i]) == -1){
-            break;
-        }
         imprimeFuncionario(empresa.funcionarios[i]);
     }
     printf("\n");
