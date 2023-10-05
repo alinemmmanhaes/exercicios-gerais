@@ -1,0 +1,61 @@
+5
+0
+1
+2
+3
+4
+oi
+tchau
+entrou
+NOME COMPLETO: Maria Silva
+PAI: Luiz Silva
+MAE: NAO INFORMADO
+
+oi
+tchau
+oi
+tchau
+oi
+tchau
+oi
+tchau
+oi
+tchau
+entrou
+NOME COMPLETO: Lucas Pereira
+PAI: NAO INFORMADO
+MAE: Sofia Pereira
+
+oi
+tchau
+oi
+tchau
+oi
+tchau
+entrou
+NOME COMPLETO: Isabela Alves
+PAI: Matheus Alves
+MAE: Carolina Alves
+
+oi
+tchau
+oi
+tchau
+oi
+tchau
+oi
+tchau
+oi
+tchau
+entrou
+NOME COMPLETO: Mariana Rodrigues
+PAI: Joao Rodrigues
+MAE: Laura Rodrigues
+
+oi
+tchau
+entrou
+NOME COMPLETO: Felipe Oliveira
+PAI: NAO INFORMADO
+MAE: Ana Oliveira
+

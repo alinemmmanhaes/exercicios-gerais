@@ -1,0 +1,73 @@
+6
+0
+1
+2
+3
+4
+5
+oi
+tchau
+oi
+tchau
+oi
+tchau
+oi
+tchau
+entrou
+NOME COMPLETO: Felipe Oliveira
+PAI: Matheus Oliveira
+MAE: Isabela Oliveira
+
+oi
+tchau
+oi
+tchau
+oi
+tchau
+entrou
+NOME COMPLETO: Ana Silva
+PAI: Joao Silva
+MAE: Maria Silva
+
+oi
+tchau
+oi
+tchau
+entrou
+NOME COMPLETO: Rafael Pereira
+PAI: Lucas Pereira
+MAE: Carolina Pereira
+
+oi
+tchau
+oi
+tchau
+entrou
+NOME COMPLETO: Gabriel Rodrigues
+PAI: Luiz Rodrigues
+MAE: Mariana Rodrigues
+
+oi
+tchau
+oi
+tchau
+entrou
+NOME COMPLETO: Laura Santos
+PAI: Pedro Santos
+MAE: Sofia Santos
+
+oi
+tchau
+oi
+tchau
+entrou
+NOME COMPLETO: Sofia Costa
+PAI: Matheus Costa
+MAE: Laura Costa
+
+oi
+tchau
+oi
+tchau
+oi
+tchau
