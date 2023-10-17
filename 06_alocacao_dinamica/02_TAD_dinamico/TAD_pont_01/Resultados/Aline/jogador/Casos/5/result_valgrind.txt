@@ -1,0 +1,2 @@
+Test Case: Resultados/Aline/jogador/Casos/5
+Valgrind result: allocs: 86 frees: 86 errors: 0 contexts: 0
