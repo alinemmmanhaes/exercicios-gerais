@@ -1,0 +1,10 @@
+Resultados/Aline/main/main.c: In function ‘main’:
+Resultados/Aline/main/main.c:20:55: warning: unused variable ‘text2’ [-Wunused-variable]
+   20 |     char text0[30] = "Salvar", text1[30] = "Excluir", text2[30] = "Opcoes";
+      |                                                       ^~~~~
+Resultados/Aline/main/main.c:20:32: warning: unused variable ‘text1’ [-Wunused-variable]
+   20 |     char text0[30] = "Salvar", text1[30] = "Excluir", text2[30] = "Opcoes";
+      |                                ^~~~~
+Resultados/Aline/main/main.c:20:10: warning: unused variable ‘text0’ [-Wunused-variable]
+   20 |     char text0[30] = "Salvar", text1[30] = "Excluir", text2[30] = "Opcoes";
+      |          ^~~~~

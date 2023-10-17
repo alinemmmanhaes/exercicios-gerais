@@ -1,0 +1,141 @@
+Rodando o script do Aluno - Arquivos header necessários do professor existem na pasta Includes
+ - Arquivos objetos necessários do professor existem na pasta Gabarito-obj.
+#######################################
+ALUNO: Aline
+#######################################
+CRIANDO O DIRETÓRIO DE RESULTADO PARA Aline:
+ - Diretório Resultados/Aline criado com sucesso!
+ - Diretório Resultados/Aline/calculadora criado com sucesso!
+ - Diretório Resultados/Aline/main criado com sucesso!
+ - Diretório Resultados/Aline/completo criado com sucesso!
+ - Arquivos criados: ok!
+
+CHECKANDO OS ARQUIVOS DO ALUNO:
+ - Arquivo esperado 'Respostas/Aline/calculadora.c' encontrado!
+ - Arquivo esperado 'Respostas/Aline/calculadora.h' encontrado!
+ - Arquivo esperado 'Respostas/Aline/main.c' encontrado!
+ - Arquivos esperados enviados: Ok!
+
+COPIANDO OS ARQUIVOS PARA A PASTA DE RESULTADO DO ALUNO:
+ - Pasta calculadora:
+ - Copiando os Casos de teste para a pasta Resultados/Aline/calculadora
+ - Copiando os 'Respostas/Aline/*.h' do aluno para a pasta Resultados/Aline/calculadora
+ - Copiando os 'Includes/*.h' do professor para a pasta Resultados/Aline/calculadora
+ - Copiando os 'Respostas/Aline/*.c' do aluno para a pasta Resultados/Aline/calculadora
+ - Pasta main:
+ - Copiando os Casos de teste para a pasta Resultados/Aline/main
+ - Copiando os 'Respostas/Aline/*.h' do aluno para a pasta Resultados/Aline/main
+ - Copiando os 'Includes/*.h' do professor para a pasta Resultados/Aline/main
+ - Copiando os 'Respostas/Aline/*.c' do aluno para a pasta Resultados/Aline/main
+ - Pasta completo:
+ - Copiando os Casos de teste para a pasta Resultados/Aline/completo
+ - Copiando os 'Respostas/Aline/*.h' do aluno para a pasta Resultados/Aline/completo
+ - Copiando os 'Respostas/Aline/*.c' do aluno para a pasta Resultados/Aline/completo
+ - Arquivos copiados: ok!
+
+COMPILANDO OS ARQUIVOS NA PASTA DE RESULTADO DO ALUNO:
+ - Pasta calculadora:
+ - Compilando o arquivo calculadora.c do aluno, gerando o calculadora.o
+ - Compilando o arquivo main.c do aluno, gerando o main.o
+ - Arquivo de output gerado: Resultados/Aline/calculadora/result_compilation.txt.
+ - Pasta main:
+ - Compilando o arquivo calculadora.c do aluno, gerando o calculadora.o
+ - Compilando o arquivo main.c do aluno, gerando o main.o
+ - Arquivo de output gerado: Resultados/Aline/main/result_compilation.txt.
+ - Pasta completo:
+ - Compilando o arquivo calculadora.c do aluno, gerando o calculadora.o
+ - Compilando o arquivo main.c do aluno, gerando o main.o
+ - Arquivo de output gerado: Resultados/Aline/completo/result_compilation.txt.
+ - Copiando os arquivos objetos do professor para cada subpasta do Resultado do Aline:
+ - Copiando o Gabarito-obj/calculadora.o para a pasta Resultados/Aline/main
+ - Copiando o Gabarito-obj/main.o para a pasta Resultados/Aline/calculadora
+ - Arquivos Compilados: ok!
+
+LINKANDO OS ARQUIVOS COMPILADOS:
+ - Pasta calculadora:
+ - Gerando o binário prog linkando com o(s) arquivo(s) calculadora/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/Aline/calculadora/result_linking.txt
+ - Pasta main:
+ - Gerando o binário prog linkando com o(s) arquivo(s) main/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/Aline/main/result_linking.txt
+ - Pasta completo:
+ - Gerando o binário prog linkando com o(s) arquivo(s) completo/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/Aline/completo/result_linking.txt
+
+EXECUTANDO O VALGRIND EM CADA CASO:
+ - Pasta calculadora / Caso 1:
+ - Arquivo de output gerado: Resultados/Aline/calculadora/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta calculadora / Caso 2:
+ - Arquivo de output gerado: Resultados/Aline/calculadora/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta calculadora / Caso 3:
+ - Arquivo de output gerado: Resultados/Aline/calculadora/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta calculadora / Caso 4:
+ - Arquivo de output gerado: Resultados/Aline/calculadora/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta main / Caso 1:
+ - Arquivo de output gerado: Resultados/Aline/main/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta main / Caso 2:
+ - Arquivo de output gerado: Resultados/Aline/main/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta main / Caso 3:
+ - Arquivo de output gerado: Resultados/Aline/main/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta main / Caso 4:
+ - Arquivo de output gerado: Resultados/Aline/main/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta completo / Caso 1:
+ - Arquivo de output gerado: Resultados/Aline/completo/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta completo / Caso 2:
+ - Arquivo de output gerado: Resultados/Aline/completo/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta completo / Caso 3:
+ - Arquivo de output gerado: Resultados/Aline/completo/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta completo / Caso 4:
+ - Arquivo de output gerado: Resultados/Aline/completo/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Ok!
+
+#######################################
+RESULTADOS FINAIS
+#######################################
+
+----------------------------------------------------------------------------
+Nome 0: Aline
+ - Arquivos Corretos: 3 de 3 / Nota 10.00
+ - Compilações Corretas: 6 de 6 / Nota 10.00
+ - Linkagens Corretas: 3 de 3 / Nota 10.00
+ - Resultados Corretos calculadora: 4 de 4 / Nota 10.00
+ - Valgrinds Corretos calculadora: 4 de 4 / Nota 10.00
+ - Resultados Corretos main: 4 de 4 / Nota 10.00
+ - Valgrinds Corretos main: 4 de 4 / Nota 10.00
+ - Resultados Corretos completo: 4 de 4 / Nota 10.00
+ - Valgrinds Corretos completo: 4 de 4 / Nota 10.00
+ - Soma das notas do Aline: 90.000
+ - Campos Considerados: 9
+ - Média do Aline: 10.00
+
+----------------------------------------------------------------------------
+
+Arquivo CSV Resultado.csv com os resultados finais foi gerado na pasta raíz!
+
+
