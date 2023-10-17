@@ -32,6 +32,7 @@ int main(){
             JogaJogador(jogo->jogador2, jogo->tabuleiro);
             jog = 1;
         }
+        ImprimeTabuleiro(tabuleiro);
         if(VenceuJogador(jogo->jogador1, jogo->tabuleiro)){
             printf("JOGADOR 1 Venceu!\n");
             gameover = 1;
