@@ -1,2 +1,2 @@
 Test Case: Resultados/Aline/main/Casos/4
-Valgrind result: allocs: 37 frees: 18 errors: 1 contexts: 1
+Valgrind result: allocs: 49 frees: 49 errors: 0 contexts: 0

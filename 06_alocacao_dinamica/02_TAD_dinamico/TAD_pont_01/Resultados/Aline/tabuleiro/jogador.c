@@ -23,7 +23,6 @@ void JogaJogador(tJogador* jogador, tTabuleiro* tabuleiro){
     jogada = CriaJogada();
     while(1){
         printf("Jogador %d\n", jogador->id);
-        printf("Digite uma posicao (x e y):\n");
         LeJogada(jogada);
         x = ObtemJogadaX(jogada);
         y = ObtemJogadaY(jogada);
@@ -31,7 +30,6 @@ void JogaJogador(tJogador* jogador, tTabuleiro* tabuleiro){
             if(EstaLivrePosicaoTabuleiro(tabuleiro, x, y)){
                 MarcaPosicaoTabuleiro(tabuleiro, jogador->id, x, y);
                 printf("Jogada [%d,%d]!\n", x, y);
-                ImprimeTabuleiro(tabuleiro);
                 jogada->sucesso = 1;
             }
             else{

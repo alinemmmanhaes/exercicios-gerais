@@ -1,2 +1,2 @@
 Test Case: Resultados/Aline/jogador/Casos/6
-Valgrind result: allocs: 17 frees: 6 errors: 2694502 contexts: 11
+Valgrind result: allocs: 17 frees: 6 errors: 4676555 contexts: 11

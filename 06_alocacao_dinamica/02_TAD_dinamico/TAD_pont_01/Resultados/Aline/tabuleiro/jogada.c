@@ -16,6 +16,7 @@ void DestroiJogada(tJogada* jogada){
 }
 
 void LeJogada(tJogada* jogada){
+    printf("Digite uma posicao (x e y):\n");
     scanf("%d %d", &jogada->x, &jogada->y);
 }
 
