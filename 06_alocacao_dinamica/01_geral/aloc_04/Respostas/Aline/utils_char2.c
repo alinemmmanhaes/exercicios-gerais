@@ -12,11 +12,11 @@ char *CriaVetorTamPadrao(){
 }
 
 char *AumentaTamanhoVetor(char* vetor, int tamanhoantigo){
-    vetor = realloc(vetor, (tamanhoantigo+TAM_PADRAO)*sizeof(char));
-    for(int i=tamanhoantigo; i<tamanhoantigo+TAM_PADRAO; i++){
+    vetor = realloc(vetor, (tamanhoantigo+TAM_PADRAO+1)*sizeof(char));
+    for(int i=tamanhoantigo; i<=tamanhoantigo+TAM_PADRAO; i++){
         vetor[i] = '_';
     }
-    vetor[tamanhoantigo+TAM_PADRAO-1] = '\0';
+    vetor[tamanhoantigo+TAM_PADRAO] = '\0';
     return vetor;
 }
 

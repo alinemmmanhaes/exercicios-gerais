@@ -3,7 +3,7 @@
 
 int main(){
     char* vetor = CriaVetorTamPadrao();
-    int total = 11;
+    int total = 10;
 
     vetor = LeVetor(vetor, &total);
     ImprimeString(vetor);
