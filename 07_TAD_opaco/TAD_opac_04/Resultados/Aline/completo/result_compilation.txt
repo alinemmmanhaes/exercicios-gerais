@@ -1,12 +1,12 @@
 Resultados/Aline/completo/main.c: In function ‘main’:
 Resultados/Aline/completo/main.c:5:9: warning: implicit declaration of function ‘scanf’ [-Wimplicit-function-declaration]
-    5 |         scanf("%d", &n);
+    5 |         scanf("%d%*c", &n);
       |         ^~~~~
 Resultados/Aline/completo/main.c:2:1: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
     1 | #include "aluno.h"
   +++ |+#include <stdio.h>
     2 | 
 Resultados/Aline/completo/main.c:5:9: warning: incompatible implicit declaration of built-in function ‘scanf’ [-Wbuiltin-declaration-mismatch]
-    5 |         scanf("%d", &n);
+    5 |         scanf("%d%*c", &n);
       |         ^~~~~
 Resultados/Aline/completo/main.c:5:9: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’

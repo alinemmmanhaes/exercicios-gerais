@@ -2,7 +2,7 @@
 
 int main(){
     int n, i, j, indice;
-	scanf("%d", &n);
+	scanf("%d%*c", &n);
 	tAluno *aluno[n], *aux;
 	
 	for(i=0; i<n; i++){
