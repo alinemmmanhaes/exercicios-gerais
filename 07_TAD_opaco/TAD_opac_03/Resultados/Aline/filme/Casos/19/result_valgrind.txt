@@ -1,0 +1,2 @@
+Test Case: Resultados/Aline/filme/Casos/19
+Valgrind result: allocs: 23 frees: 23 errors: 0 contexts: 0
