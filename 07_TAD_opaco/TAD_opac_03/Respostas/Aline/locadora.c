@@ -37,10 +37,17 @@ int VerificarFilmeCadastrado (tLocadora* locadora, int codigo){
 }
 
 void CadastrarFilmeLocadora (tLocadora *locadora, tFilme *filme){
-    (locadora->numFilmes)++;
-    int i = locadora->numFilmes;
-    locadora->filmes = realloc(locadora->filmes, i*sizeof(tFilme*));
-    locadora->filmes[i-1] = filme;
+    if(VerificarFilmeCadastrado(locadora, ObterCodigoFilme(filme)) == 0){
+        if(locadora->numFilmes < 100){
+            (locadora->numFilmes)++;
+            int i = locadora->numFilmes;
+            locadora->filmes = realloc(locadora->filmes, i*sizeof(tFilme*));
+            locadora->filmes[i-1] = filme;
+        }
+    }
+    else{
+        printf("Filme ja cadastrado no estoque.\n");
+    }
 }
 
 void LerCadastroLocadora (tLocadora* Locadora){
@@ -52,14 +59,25 @@ void LerCadastroLocadora (tLocadora* Locadora){
 }
 
 void AlugarFilmesLocadora (tLocadora* locadora, int* codigos, int quantidadeCodigos){
+    int flag = 0;
     for(int i=0; i<quantidadeCodigos; i++){
+        flag = 0;
         for(int j=0; j<locadora->numFilmes; j++){
             if(EhMesmoCodigoFilme(locadora->filmes[j], codigos[i])){
+                flag++;
                 if(ObterQtdEstoqueFilme(locadora->filmes[j]) > 0 ){
                     AlugarFilme(locadora->filmes[j]);
                     break;
                 }
+                else{
+                    printf("Filme ");
+                    ImprimirNomeFilme(locadora->filmes[j]);
+                    printf(" - %d nao disponivel no estoque. Volte mais tarde.\n", codigos[i]);
+                }
             }
+        }
+        if(flag == 0){
+            printf("Filme %d nao  cadastrado\n", codigos[i]);
         }
     }
 }
@@ -76,5 +94,57 @@ void LerAluguelLocadora (tLocadora* locadora){
 }
 
 void DevolverFilmesLocadora (tLocadora* locadora, int* codigos, int quantidadeCodigos){
+    int flag = 0;
+    for(int i=0; i<quantidadeCodigos; i++){
+        flag = 0;
+        for(int j=0; j<locadora->numFilmes; j++){
+            if(EhMesmoCodigoFilme(locadora->filmes[j], codigos[i])){
+                flag++;
+                if(ObterQtdAlugadaFilme(locadora->filmes[j]) == 0){
+                    printf("Nao e possivel devolver o filme ");
+                    ImprimirNomeFilme(locadora->filmes[j]);
+                    printf(" - %d\n", codigos[i]);
+                }
+                else{
+                    DevolverFilme(locadora->filmes[j]);
+                }
+                break;
+            }
+        }
+        if(flag == 0){
+            printf("Filme %d nao  cadastrado\n", codigos[i]);
+        }
+    }
+}
+
+void LerDevolucaoLocadora (tLocadora* locadora){
+    int c, total=0;
+    int*codigos = NULL;
+    while (scanf("%d",&c) == 1){
+        total++;
+        codigos = realloc(codigos, total*sizeof(int));
+        codigos[total-1] = c;
+    }
+    DevolverFilmesLocadora(locadora, codigos, total);
+}
+
+void OrdenarFilmesLocadora (tLocadora* locadora){
+    tFilme* aux;
+    int indice = 0;
+    for(int i=0; i<locadora->numFilmes; i++){
+        aux = locadora->filmes[i];
+        indice = i;
+        for(int j=i+1; j<locadora->numFilmes; j++){
+            if(CompararNomesFilmes(locadora->filmes[i], locadora->filmes[j]) == 1){
+                aux = locadora->filmes[j];
+                indice = j;
+            }
+        }
+        locadora->filmes[indice] = locadora->filmes[i];
+        locadora->filmes[i] = aux;
+    }
+}
+
+void ConsultarEstoqueLocadora (tLocadora* locadora){
     
 }
