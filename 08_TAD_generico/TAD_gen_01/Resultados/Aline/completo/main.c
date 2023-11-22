@@ -4,7 +4,7 @@
 
 int main(){
     int type, qtd;
-    printf("tad_gen_01\nDigite o tipo e numero de elementos: \n");
+    printf("tad_gen_01\nDigite o tipo e numero de elementos: ");
     scanf("%d %d", &type, &qtd);
     tGeneric* gen = CriaGenerico(type, qtd);
     LeGenerico(gen);

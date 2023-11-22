@@ -6,7 +6,7 @@
 struct generic{
    Type type;
    int numElem;
-   void** vetor;
+   void* vetor;
 };
 
 tGeneric* CriaGenerico(Type type, int numElem){
@@ -30,6 +30,7 @@ void DestroiGenerico(tGeneric* gen){
 }
 
 void LeGenerico(tGeneric* gen){
+    printf("\nDigite o vetor:\n");
     if(gen->type == 0){
         float fnum;
         for(int i=0; i<gen->numElem; i++){
@@ -49,13 +50,12 @@ void LeGenerico(tGeneric* gen){
 }
 
 void ImprimeGenerico(tGeneric* gen){
-    printf("Digite o vetor:\n");
     if(gen->type == 0){
         for(int i=0; i<gen->numElem; i++){
             float fnum;
             void* ptr = gen->vetor +(i*sizeof(float));
             memcpy(&fnum, ptr, sizeof(float));
-            printf("%.2f", fnum);
+            printf("%.2f ", fnum);
         }
     }
     else if(gen->type == 1){
@@ -63,7 +63,7 @@ void ImprimeGenerico(tGeneric* gen){
             int inum;
             void* ptr = gen->vetor +(i*sizeof(int));
             memcpy(&inum, ptr, sizeof(int));
-            printf("%d", inum);
+            printf("%d ", inum);
         }
     }
 }
