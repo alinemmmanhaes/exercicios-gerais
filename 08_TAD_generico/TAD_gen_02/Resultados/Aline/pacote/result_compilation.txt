@@ -1,0 +1,14 @@
+cc1: fatal error: Resultados/Aline/pacote/gerenciadorpacotes.c: No such file or directory
+compilation terminated.
+cc1: fatal error: Resultados/Aline/pacote/main.c: No such file or directory
+compilation terminated.
+Resultados/Aline/pacote/pacote.c: In function ‘LePacote’:
+Resultados/Aline/pacote/pacote.c:42:36: warning: dereferencing ‘void *’ pointer
+   42 |             scanf("%c", &pac->vetor[i]);
+      |                                    ^
+Resultados/Aline/pacote/pacote.c:42:21: warning: format ‘%c’ expects argument of type ‘char *’, but argument 2 has type ‘void *’ [-Wformat=]
+   42 |             scanf("%c", &pac->vetor[i]);
+      |                    ~^   ~~~~~~~~~~~~~~
+      |                     |   |
+      |                     |   void *
+      |                     char *
