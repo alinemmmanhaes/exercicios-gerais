@@ -1,0 +1,10 @@
+/usr/bin/ld: Resultados/Aline/.vscode/aluno/main.o: in function `main':
+main.c:(.text+0x53): undefined reference to `CriaVetorAlunos'
+/usr/bin/ld: main.c:(.text+0x68): undefined reference to `LeAlunos'
+/usr/bin/ld: main.c:(.text+0x81): undefined reference to `SalvaAlunosBinario'
+/usr/bin/ld: main.c:(.text+0x92): undefined reference to `LiberaAlunos'
+/usr/bin/ld: main.c:(.text+0x9c): undefined reference to `CriaVetorAlunos'
+/usr/bin/ld: main.c:(.text+0xb6): undefined reference to `CarregaAlunosBinario'
+/usr/bin/ld: main.c:(.text+0xc7): undefined reference to `ImprimeAlunos'
+/usr/bin/ld: main.c:(.text+0xd8): undefined reference to `LiberaAlunos'
+collect2: error: ld returned 1 exit status
