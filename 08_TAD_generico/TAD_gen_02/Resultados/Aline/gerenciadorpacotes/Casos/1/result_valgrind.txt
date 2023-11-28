@@ -1,0 +1,2 @@
+Test Case: Resultados/Aline/gerenciadorpacotes/Casos/1
+Valgrind result: allocs: 33 frees: 33 errors: 0 contexts: 0
