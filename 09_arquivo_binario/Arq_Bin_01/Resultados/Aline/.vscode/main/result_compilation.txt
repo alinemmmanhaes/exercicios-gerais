@@ -1,4 +1,0 @@
-cc1: fatal error: Resultados/Aline/.vscode/main/aluno.c: No such file or directory
-compilation terminated.
-cc1: fatal error: Resultados/Aline/.vscode/main/main.c: No such file or directory
-compilation terminated.

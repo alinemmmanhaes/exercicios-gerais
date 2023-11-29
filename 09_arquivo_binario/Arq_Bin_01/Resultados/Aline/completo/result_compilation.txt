@@ -1,0 +1,8 @@
+Resultados/Aline/completo/aluno.c: In function ‘CriaAluno’:
+Resultados/Aline/completo/aluno.c:36:20: warning: implicit declaration of function ‘TamanhoString’ [-Wimplicit-function-declaration]
+   36 |     aluno->tnome = TamanhoString(aluno->nome);
+      |                    ^~~~~~~~~~~~~
+Resultados/Aline/completo/aluno.c: In function ‘SalvaAlunosBinario’:
+Resultados/Aline/completo/aluno.c:78:20: warning: unused variable ‘tam’ [-Wunused-variable]
+   78 |     int total = 0, tam = 0;
+      |                    ^~~

@@ -9,7 +9,7 @@ int main(){
     scanf("%d", &total);
     Aluno** lista = CriaVetorAlunos(total);
     LeAlunos(lista, total);
-
+    
     SalvaAlunosBinario(lista, "alunos.bin", total);
     LiberaAlunos(lista, total);
 
