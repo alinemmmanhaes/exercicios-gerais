@@ -3,6 +3,6 @@ Resultados/Aline/main/aluno.c:36:20: warning: implicit declaration of function �
    36 |     aluno->tnome = TamanhoString(aluno->nome);
       |                    ^~~~~~~~~~~~~
 Resultados/Aline/main/aluno.c: In function ‘SalvaAlunosBinario’:
-Resultados/Aline/main/aluno.c:78:20: warning: unused variable ‘tam’ [-Wunused-variable]
-   78 |     int total = 0, tam = 0;
+Resultados/Aline/main/aluno.c:81:20: warning: unused variable ‘tam’ [-Wunused-variable]
+   81 |     int total = 0, tam = 0;
       |                    ^~~

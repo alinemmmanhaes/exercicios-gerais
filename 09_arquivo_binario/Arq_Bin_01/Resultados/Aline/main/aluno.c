@@ -43,10 +43,13 @@ Aluno* CriaAluno(char *nome, char *dtNasc, char *cursoUfes, char* periodoIngress
 
 void LeAlunos(Aluno** vetorAlunos, int numeroAlunos){
     scanf("%*c");
+    char nome[100], data[100], curso[100], periodo[100];
+    int conclusao;
+    float cr;
     for(int i=0; i<numeroAlunos; i++){
-        char nome[100], data[100], curso[100], periodo[100];
-        int conclusao;
-        float cr;
+        //char nome[100], data[100], curso[100], periodo[100];
+        //int conclusao;
+        //float cr;
         scanf("%[^\n]\n", nome);
         scanf("%[^\n]\n", data);
         scanf("%[^\n]\n", curso);
