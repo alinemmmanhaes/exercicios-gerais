@@ -1,0 +1,2 @@
+Test Case: Resultados/Aline/tarefasoma/Casos/4
+Valgrind result: allocs: 35 frees: 35 errors: 0 contexts: 0
