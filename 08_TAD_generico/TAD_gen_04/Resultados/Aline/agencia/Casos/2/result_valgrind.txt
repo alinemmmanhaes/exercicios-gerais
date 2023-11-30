@@ -1,0 +1,2 @@
+Test Case: Resultados/Aline/agencia/Casos/2
+Valgrind result: allocs: 72 frees: 72 errors: 0 contexts: 0
