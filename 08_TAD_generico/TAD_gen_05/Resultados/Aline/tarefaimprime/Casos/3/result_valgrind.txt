@@ -1,0 +1,2 @@
+Test Case: Resultados/Aline/tarefaimprime/Casos/3
+Valgrind result: allocs: 57 frees: 57 errors: 0 contexts: 0
